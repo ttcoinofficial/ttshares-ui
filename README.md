@@ -1,16 +1,16 @@
-XMET GUI
+TTSHARES-UI GUI
 ============
 
 ## Prerequisites
 
-XMET GUI depends on Node.js.
+TTSHARES-UI GUI depends on Node.js.
 
 On Ubuntu you can install Node.js via the following command:
 ```
 sudo apt-get install git nodejs-legacy npm
 ```
 
-In order to use the GUI you will need to have a functioning witness node from the XMET running with a websocket endpoint at localhost:8090. Instructions for this can be found here: https://github.com/TTcoinDeveloper
+In order to use the GUI you will need to have a functioning witness node from the ttshares-ui running with a websocket endpoint at localhost:8090. Instructions for this can be found here: https://github.com/TTcoinDeveloper
 
 While waiting for the public testnet you may want to run a local chain, to do so add the following to your config.ini in ./witness_node_data_dir :
 
@@ -36,8 +36,8 @@ witness-id = "1.6.9"
 
 ## Install
 ```
-git clone https://github.com/TTcoinDeveloper/xmet-ui.git
-cd xmet-ui
+git clone https://github.com/TTcoinDeveloper/ttshares-ui.git
+cd ttshares-ui-ui
 ```
 
 Before launching the GUI you will need to install the npm packages for each subdirectory:
@@ -72,8 +72,8 @@ $g.wallet.sign_and_broadcast(tr)
 
 ## Environment
 ```
-export XMET_UI_HOME=$HOME/xmet/xmet-ui
-export NODE_PATH="$NODE_PATH:$XMET_UI_HOME/dl/src:$GRAPHENE_UI_HOME/web/app"
+export ttshares-ui_UI_HOME=$HOME/ttshares-ui/ttshares-ui-ui
+export NODE_PATH="$NODE_PATH:$ttshares-ui_UI_HOME/dl/src:$GRAPHENE_UI_HOME/web/app"
 ```
 
 ## Testing
