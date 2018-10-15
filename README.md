@@ -1,16 +1,16 @@
-Graphene GUI
+XMET GUI
 ============
 
 ## Prerequisites
 
-BitShares GUI depends on Node.js.
+XMET GUI depends on Node.js.
 
 On Ubuntu you can install Node.js via the following command:
 ```
 sudo apt-get install git nodejs-legacy npm
 ```
 
-In order to use the GUI you will need to have a functioning witness node from the BitShares running with a websocket endpoint at localhost:8090. Instructions for this can be found here: https://github.com/cryptonomex/graphene 
+In order to use the GUI you will need to have a functioning witness node from the XMET running with a websocket endpoint at localhost:8090. Instructions for this can be found here: https://github.com/cryptonomex/graphene 
 
 While waiting for the public testnet you may want to run a local chain, to do so add the following to your config.ini in ./witness_node_data_dir :
 
